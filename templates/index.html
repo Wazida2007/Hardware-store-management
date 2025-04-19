@@ -1,0 +1,340 @@
+{% extends "base.html" %}
+
+{% block tittle %} Home{% endblock tittle %}
+
+
+{% block body  %}
+
+<style>
+  body {
+    background-image: url('https://images.pexels.com/photos/2611817/pexels-photo-2611817.jpeg?auto=compress&cs=tinysrgb&w=600');
+  }
+  </style>
+
+
+<div class="container my-5 px-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src= "/static/1.jfif" class="d-block w-100" alt="..." width="200" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to Aman Hardware And Electrical </h5>
+          <p>Electrify Your Business with Our Expertise. Power Up Your Life with Aman Hardware And Electrical</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src= "https://media.istockphoto.com/id/178563345/photo/space-shot-of-earth-focusing-on-indias-city-lights-at-night.webp?a=1&b=1&s=612x612&w=0&k=20&c=77uPd7hu6oV0RPP8DtC0yf0P0fgaTmSIHweC3gOcf6U=" class="d-block w-100" alt="..." width="200" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We Serve the Tools, You Power the Future.</h5>
+          <p>From Paint to Power: Everything You Need Under One Roof.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src= "https://plus.unsplash.com/premium_photo-1672759360872-791a5ba6e2cc?q=80&w=1496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." width="50" height="400">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Your Vision, Our Tools</h5>
+          <p>We Serve Innovation, You Build with Inspiration.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container  my-4">
+  <h1 class="my-2 text-centre " style="color:black;">CATEGORIES</h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/483140839/photo/messy-paint-pots.jpg?s=612x612&w=0&k=20&c=Gf7VVlMcdcLRcFPgEO0s3uexyiR_FJE6hH8Uu8NKm9k=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Wall Paints</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/1571065344/photo/a-gray-color-lighting-switch.webp?a=1&b=1&s=612x612&w=0&k=20&c=jOZ_GoHcVr1Ggeyda65hTaFmJMGdAyvDNNqXY1UNMuc=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Switches</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+               
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/176816406/photo/tile-flooring-samples-on-display.jpg?s=612x612&w=0&k=20&c=j3Q38Hj8eirmMn9cbncwDLGYd9e3BRQxEqTIOOE92vg=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Tiles</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/825526728/photo/inspiration-light-bulb-hand-idea-blackboard.jpg?s=612x612&w=0&k=20&c=JeZ1DIyKEf66GtotyC-tcL0Zf4LXf4n5jx7StIG-CaY=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Bulb</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/1074647752/photo/stylish-interior-outside-ceramics-bathroom.webp?a=1&b=1&s=612x612&w=0&k=20&c=rn9bLev3TWLczPGzDgfbYqouCPYDNg4xfXtf8s6LIiE=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Washbasins</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://img.freepik.com/free-photo/electrical-cable-energy-technology-equipment-isolated-white_93675-128546.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Wires</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/123493163/photo/painting-the-wall-red-with-a-paint-brush.webp?a=1&b=1&s=612x612&w=0&k=20&c=TyZRzftQzx3mjWFTzyIIsx2PsU6Op3cum-BqBSD4jic=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Paint Bursh</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/2157522415/photo/close-up-of-a-gray-electrical-outlet-on-a-white-wall.webp?a=1&b=1&s=612x612&w=0&k=20&c=7CP5uKWrcBwKBexU_fmSlwOIkAv6RkjaFfSNwqxb6sc=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Socket</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/172780332/photo/painting-a-wall.jpg?s=612x612&w=0&k=20&c=aE6XiMadl0eg8NlJqiVY-RtLNF8m4EIIQr4hghN4TTY=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Paint Roller</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://www.decorpot.com/images/blogimage1064217867main-hall-fall-ceiling-design-two-fans-industrial-style.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Fan and Celling Design</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/580093914/photo/pvc-pipes-stacked-in-warehouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=Wqw2bzXLLrF2o_ZjdPbgBZELAsRnAApAFyPNOa0PpjU=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Pipes</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://images.meesho.com/images/products/149894303/lv6oa_512.webp" class="d-block w-100" alt="..." width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>LED String Serial Lights</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://hometriangle.com/imagecache/media/34373/image.webp" class="d-block w-100" alt="..." width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>Water Tank</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://image.made-in-china.com/318f0j00VagfPweKbLkc/lampholder-mp4.webp" class="d-block w-100" alt="..."  width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>Holder</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= " https://media.istockphoto.com/id/654153664/photo/cleaning-service-sponges-chemicals-and-mop.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZZIt824AaWL4yOsLHJ64VomDFFXaXxC7v_u-KtJ8Lh8=" class="d-block w-100" alt="..."  width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>Cleaner</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://media.istockphoto.com/id/531424722/photo/white-toilet-in-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=iHnhEshXmwhWFEq4aFUuC3le2SNRFMzZgnocuf1HAEw=" class="d-block w-100" alt="..."  width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>Toilet Seats</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card shadow-sm">
+
+          <img src= "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0F4o3rnxZOuVKC7H8zpePU9qW17y7RPl8ZJOvulNOSnvSOPwYbMYC8RncpXncHM0MI31nK48Cy40V5J3FGgQkHotpx9eeALHsPacztx-P" class="d-block w-100" alt="..."  width="50" 
+          height="240">
+          <div class="card-body">
+            <p class="card-text"><b>Extension Board</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src= "https://media.istockphoto.com/id/509278027/photo/cleaning-tap.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZWSifXhcdHTonV95zTq6lDx9wlV8U-f1QhF1CckptP4=" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Bath Fitting</b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+               
+              </div>
+              <small class="text-body-secondary"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
+
